@@ -1,0 +1,1 @@
+change app name in fly.toml and issue `fly launch`
