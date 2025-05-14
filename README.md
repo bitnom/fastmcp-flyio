@@ -23,3 +23,5 @@ fly logs (attempted with and without trailing-slash in mcp URL):
 2025-05-14T16:35:44Z app[d8dd76ea161538] atl [info]INFO:     172.16.21.106:52424 - "GET /mcp/ HTTP/1.1" 400 Bad Request
 2025-05-14T16:35:56Z app[d8dd76ea161538] atl [info]INFO:     172.16.21.106:34906 - "GET /mcp/ HTTP/1.1" 400 Bad Request
 ```
+
+Same result happens with fastmcp client.
