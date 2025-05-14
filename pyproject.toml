@@ -1,0 +1,21 @@
+[project]
+name = "flymcp"
+version = "0.1.0"
+description = "fastmcp MCP server on fly.io"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.3.3",
+    "uvicorn>=0.34.2",
+]
+
+[project.scripts]
+flymcp = "flymcp:main"
+
+[dependency-groups]
+dev = [
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

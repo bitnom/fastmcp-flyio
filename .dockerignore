@@ -1,0 +1,155 @@
+# flyctl launch added from .gitignore
+# Python-generated files
+**/__pycache__
+**/*.py[oc]
+**/build
+**/dist
+**/wheels
+**/*.egg-info
+
+# Virtual environments
+**/.venv*
+**/.vscode
+**/vendor
+**/.python-version
+
+# flyctl launch added from .venv/.gitignore
+.venv/**/*
+
+# flyctl launch added from context-docs/yt-dlp/.gitignore
+# Config
+context-docs/yt-dlp/**/*.conf
+context-docs/yt-dlp/**/cookies
+context-docs/yt-dlp/**/*cookies.txt
+context-docs/yt-dlp/**/.netrc
+
+# Downloaded
+context-docs/yt-dlp
+context-docs/yt-dlp/**/*.annotations.xml
+context-docs/yt-dlp/**/*.aria2
+context-docs/yt-dlp/**/*.description
+context-docs/yt-dlp/**/*.dump
+context-docs/yt-dlp/**/*.frag
+context-docs/yt-dlp/**/*.frag.aria2
+context-docs/yt-dlp/**/*.frag.urls
+context-docs/yt-dlp/**/*.info.json
+context-docs/yt-dlp/**/*.live_chat.json
+context-docs/yt-dlp/**/*.meta
+context-docs/yt-dlp/**/*.part*
+context-docs/yt-dlp/**/*.tmp
+context-docs/yt-dlp/**/*.temp
+context-docs/yt-dlp/**/*.unknown_video
+context-docs/yt-dlp/**/*.ytdl
+context-docs/yt-dlp/**/.cache
+
+context-docs/yt-dlp/**/*.3gp
+context-docs/yt-dlp/**/*.ape
+context-docs/yt-dlp/**/*.ass
+context-docs/yt-dlp/**/*.avi
+context-docs/yt-dlp/**/*.desktop
+context-docs/yt-dlp/**/*.f4v
+context-docs/yt-dlp/**/*.flac
+context-docs/yt-dlp/**/*.flv
+context-docs/yt-dlp/**/*.gif
+context-docs/yt-dlp/**/*.jpeg
+context-docs/yt-dlp/**/*.jpg
+context-docs/yt-dlp/**/*.lrc
+context-docs/yt-dlp/**/*.m4a
+context-docs/yt-dlp/**/*.m4v
+context-docs/yt-dlp/**/*.mhtml
+context-docs/yt-dlp/**/*.mkv
+context-docs/yt-dlp/**/*.mov
+context-docs/yt-dlp/**/*.mp3
+context-docs/yt-dlp/**/*.mp4
+context-docs/yt-dlp/**/*.mpg
+context-docs/yt-dlp/**/*.mpga
+context-docs/yt-dlp/**/*.oga
+context-docs/yt-dlp/**/*.ogg
+context-docs/yt-dlp/**/*.opus
+context-docs/yt-dlp/**/*.png
+context-docs/yt-dlp/**/*.sbv
+context-docs/yt-dlp/**/*.srt
+context-docs/yt-dlp/**/*.ssa
+context-docs/yt-dlp/**/*.swf
+context-docs/yt-dlp/**/*.tt
+context-docs/yt-dlp/**/*.ttml
+context-docs/yt-dlp/**/*.url
+context-docs/yt-dlp/**/*.vtt
+context-docs/yt-dlp/**/*.wav
+context-docs/yt-dlp/**/*.webloc
+context-docs/yt-dlp/**/*.webm
+context-docs/yt-dlp/**/*.webp
+
+# Allow config/media files in testdata
+!context-docs/yt-dlp/**/test/**
+
+# Python
+context-docs/yt-dlp/**/*.pyc
+context-docs/yt-dlp/**/*.pyo
+context-docs/yt-dlp/**/.*_cache
+context-docs/yt-dlp/**/wine-py2exe
+context-docs/yt-dlp/**/py2exe.log
+context-docs/yt-dlp/**/build
+context-docs/yt-dlp/**/dist
+context-docs/yt-dlp/**/zip
+context-docs/yt-dlp/**/tmp
+context-docs/yt-dlp/**/venv
+context-docs/yt-dlp/**/.venv
+context-docs/yt-dlp/**/completions
+
+# Misc
+context-docs/yt-dlp/**/*~
+context-docs/yt-dlp/**/*.DS_Store
+context-docs/yt-dlp/**/*.kate-swp
+context-docs/yt-dlp/**/MANIFEST
+context-docs/yt-dlp/**/test/local_parameters.json
+context-docs/yt-dlp/**/.coverage
+context-docs/yt-dlp/**/cover
+context-docs/yt-dlp/**/secrets
+context-docs/yt-dlp/**/updates_key.pem
+context-docs/yt-dlp/**/*.egg-info
+context-docs/yt-dlp/**/.tox
+context-docs/yt-dlp/**/*.class
+context-docs/yt-dlp/**/*.isorted
+context-docs/yt-dlp/**/*.stackdump
+context-docs/yt-dlp/**/uv.lock
+
+# Generated
+context-docs/yt-dlp/**/AUTHORS
+context-docs/yt-dlp/**/README.txt
+context-docs/yt-dlp/**/.mailmap
+context-docs/yt-dlp/**/*.1
+context-docs/yt-dlp/**/*.bash-completion
+context-docs/yt-dlp/**/*.fish
+context-docs/yt-dlp/**/*.tar.gz
+context-docs/yt-dlp/**/*.zsh
+context-docs/yt-dlp/**/*.spec
+context-docs/yt-dlp/**/test/testdata/sigs/player-*.js
+
+# Binary
+context-docs/yt-dlp/youtube-dl
+context-docs/yt-dlp/youtube-dlc
+context-docs/yt-dlp/yt-dlp
+context-docs/yt-dlp/**/yt-dlp.zip
+context-docs/yt-dlp/**/*.exe
+
+# Text Editor / IDE
+context-docs/yt-dlp/**/.idea
+context-docs/yt-dlp/**/*.iml
+context-docs/yt-dlp/**/.vscode
+context-docs/yt-dlp/**/*.sublime-*
+context-docs/yt-dlp/**/*.code-workspace
+context-docs/yt-dlp/**/*.swp
+
+# Lazy extractors
+context-docs/yt-dlp/**/*/extractor/lazy_extractors.py
+
+# Plugins
+context-docs/yt-dlp/**/ytdlp_plugins
+context-docs/yt-dlp/**/yt-dlp-plugins
+
+# flyctl launch added from test_out/.gitignore
+test_out/**/*
+!test_out/**/.gitignore
+!test_out/**/.placeholder
+fly.toml
