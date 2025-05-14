@@ -25,3 +25,5 @@ fly logs (attempted with and without trailing-slash in mcp URL):
 ```
 
 Same result happens with fastmcp client.
+
+Currently working to resolve in: https://github.com/jlowin/fastmcp/issues/435
